@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.compilerPath": "cl.exe",
+    "files.associations": {
+        "Dockerfile_clustering": "dockerfile",
+        "Dockerfile_preprocessor": "dockerfile",
+        "thread": "cpp"
+    }
+}

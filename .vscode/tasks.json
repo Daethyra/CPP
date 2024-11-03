@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: cl.exe build active file",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/nologo",
+                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${file}",
+                "/I", "C:/tools/OpenCV/build/include",            // Add OpenCV include path
+                "/link",
+                "/MACHINE:x64",
+                "/LIBPATH:C:/tools/OpenCV/build/x64/vc16/lib",    // Add OpenCV library path
+                "opencv_world4100.lib",                       // Link against OpenCV library
+                // "/SUBSYSTEM:WINDOWS",
+                // "/ENTRY:mainCRTStartup"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task configured for OpenCV with cl.exe."
+        }
+    ],
+    "version": "2.0.0"
+}
