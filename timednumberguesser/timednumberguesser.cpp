@@ -4,7 +4,7 @@
 #include <thread>
 
 int main() {
-    int seed = std::rand() % 11; // Secret number
+    int seed = std::rand() % 11; // Guessable range
     int guess;
 
     // Get the start time
