@@ -18,3 +18,7 @@ x64/
 *.ilk
 *.obj
 *.pdb
+*.exe
+*.ilk
+*.obj
+*.pdb
