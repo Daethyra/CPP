@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.slnx
+
+# VS Code
+.vscode/
+
+# Build artifacts
+Debug/
+Release/
+x64/
+*.exe
+*.obj*.exe
+*.ilk
+*.obj
+*.pdb
+*.exe
+*.ilk
+*.obj
+*.pdb
