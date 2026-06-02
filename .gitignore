@@ -14,4 +14,7 @@ Debug/
 Release/
 x64/
 *.exe
+*.obj*.exe
+*.ilk
 *.obj
+*.pdb
